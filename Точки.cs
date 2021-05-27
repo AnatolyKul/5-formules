@@ -1,34 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Drawing;
 
 namespace ConsoleApp13
 {
-	class Shape
+	class Point
 	{
-		protected  Point[] points;
-		protected  Point center; 
+		public double x;
+		public double y;
+		
 
-		public Shape()
+		public Point(double x, double y)
 		{
-			points = null;
+			this.x = x;
+			this.y = y;
 		}
-		public Shape(Point center, Point[] points)
+		public float GetX()
 		{
-			this.center = center;
-			this.points = points;
+			return x;
 		}
-		public Shape(Point[] points)
-		{ }
-
-		public void Draw()
+		public float GetY()
 		{
-			if (points == null) return; 
-			
-
-			
-
+			return y;
 		}
+
 	}
 }

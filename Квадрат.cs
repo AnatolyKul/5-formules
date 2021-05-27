@@ -26,6 +26,7 @@ namespace ConsoleApp13
 			int P = a + b + c + d;
 			Console.WriteLine("Периметр квадрата: " + P);
 			return P;
+			
 		}
 	}
 

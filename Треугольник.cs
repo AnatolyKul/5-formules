@@ -28,5 +28,6 @@ namespace ConsoleApp13
 			Console.WriteLine("Периметр треугольника: " + P);
 			return P;
 		}
+		
 	}
 }
